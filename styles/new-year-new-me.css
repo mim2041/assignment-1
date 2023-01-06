@@ -86,7 +86,7 @@
 .positive-mindset{
     width: 1140px;
     height: 300px;
-    background-image: url('../images/watch.png'), linear-gradient(to right, #005FAC, #005FAC00);
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
     margin-left: 180px;
     
 }
