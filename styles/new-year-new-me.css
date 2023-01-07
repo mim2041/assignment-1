@@ -1,5 +1,5 @@
 /* header section's styles */
-.header{
+/* .header{
     background-image: url('../images/banner/banner3.png');
     width: 1500px;
     height: 808px;
@@ -20,12 +20,28 @@
     height: 150px;
     /* width: 400px; */
     
+/* } */
+.header{
+    background-image: url('../images/banner/banner3.png');
+    width: 1500px;
+    height: 808px;
+}
+.header-message{
+    padding-right: 100px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.header-title{
+    font-family: 'Open Sans', sans-serif;
+    
+    width: 300px;
+    padding-right: 0;
 }
 .header-description{
     height: 130px;
     /* width: 494px; */
     margin-right: 0;
-}
+} */
 .header-description p{
     font-family: 'Work Sans';
     font-style: normal;
@@ -42,6 +58,11 @@
     border: none;
     color: blue;
 }
+.btn-primary:hover{
+    background-color: rgb(0, 0, 255);
+    color: #FFFFFF;
+    padding: 17px 24px;
+}
 
 /* Failure Resons Section styles*/
 .failures-reson-container{
@@ -53,10 +74,11 @@
 .failure-reson-img{
     width: 30%;
 }
-.failure-reson-title{
+.title{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- 
+    text-align: center;
     font-size: 30px;
+    margin-bottom: 50px;
 }
 .failure-resons{
     width: 40%;
@@ -68,18 +90,46 @@
 .my-plans{
     margin-right: 100px;
     margin-left: 100px;
+    background: #FFF8F3;
+    height: 350px;
+    padding: 50px;
+    margin-bottom: 100px;
 }
-.plans-title{
-    text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-bottom: 50px;
-    font-size: 30px;
-}
+
 .plans{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 100px;
+}
+
+/* Future Goals section */
+.goals{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.goal{
+    width: 230px;
+    background: #4F9DA61A;
+    box-shadow: 0px 20px 100px rgba(14, 43, 204, 0.06);
+    border-radius: 5px;
+    padding: 5px;
+}
+.goal-title{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.goal img{
+    width: 230px;
+    height: 150px;
+}
+.goal:hover{
+    transform: scale(1.1, 1.1);
+    transition: 0.3s transform;
 }
 
 /* Positive mindset section */
@@ -89,6 +139,7 @@
     background-image: url('../images/gradient1.png'), url('../images/watch.png');
     margin-left: 180px;
     margin-bottom: 100px;
+    margin-top: 100px;
     
 }
 .mindset-div{
@@ -146,10 +197,16 @@
     width: 200px;
     border-radius: 5px;
 }
+
 .btn-secondary{
     padding: 13px 23px;
     background-color: blue;
     margin-top: 10px;
     border-radius: 5px;
     color: #FFFFFF;
+}
+.btn-secondary:hover{
+    color: blue;
+    background-color: #FFFFFF;
+    padding: 14px 24px;
 }
