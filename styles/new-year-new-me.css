@@ -1,26 +1,4 @@
 /* header section's styles */
-/* .header{
-    background-image: url('../images/banner/banner3.png');
-    width: 1500px;
-    height: 808px;
-    display: flex;
-    justify-content: center;
-
-}
-.header-message{
-    padding-right: 100px;
-    text-align: right;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.header-title{
-    font-family: 'Open Sans', sans-serif;
-    color: #FFFFFF;
-    height: 150px;
-    /* width: 400px; */
-    
-/* } */
 .header{
     background-image: url('../images/banner/banner3.png');
     width: 100%;
@@ -97,9 +75,9 @@
 .my-plans{
     margin-right: 100px;
     margin-left: 100px;
-    background: #FFF8F3;
+    
     height: 350px;
-    padding: 50px;
+    
     margin-bottom: 100px;
 }
 
