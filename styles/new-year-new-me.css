@@ -103,8 +103,8 @@
     margin-bottom: 100px;
 }
 
-/* Future Goals section */
-.goals{
+/* Future dreams section */
+.dreams{
     margin-left: 100px;
     margin-right: 100px;
     
@@ -112,22 +112,22 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.goal{
+.dream{
     width: 230px;
     background: #4F9DA61A;
     box-shadow: 0px 20px 100px rgba(14, 43, 204, 0.06);
     border-radius: 5px;
     padding: 5px;
 }
-.goal-title{
+.dream-title{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
-.goal img{
+.dream img{
     width: 230px;
     height: 150px;
 }
-.goal:hover{
+.dream:hover{
     transform: scale(1.1, 1.1);
     transition: 0.3s transform;
 }
